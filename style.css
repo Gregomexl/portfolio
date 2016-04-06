@@ -1,0 +1,27 @@
+img	{
+	max-width: 100%;
+	vertical-align: top;
+}
+ hr	{
+ 	border-top: 3px solid #BCBBBB;
+ }
+ .avatar {
+  	width: 200px;
+  	height: 200px;
+}
+.name-title {
+	font-size: 70px;
+	font-family: 'Josefin Slab', serif;
+}
+.title{
+	font-size: 35px;
+	font-family: 'Khand', sans-serif;
+}
+
+body {
+	padding-top: 10px;
+	padding-bottom: 10px;  
+	padding-left: 80px; 
+	padding-right: 80px; 
+	margin: 0px;
+}
