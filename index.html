@@ -46,8 +46,96 @@
         <h2 class="work-title">Featured Work</h2>
         </blockquote>
       </div>
+      
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <img class="responsive-img center" src="img/project-featured1.png">
+          <p class="center-align">
+          <a class="project-title modal-trigger" href="#modal1">Portfolio</a>
+          </p>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+            <h4>Portfolio</h4>
+            <p>This is my first project in the Front-end Nanodegree program. Bootstrap is utilized to layout the grid, srcset is used to change an image based on viewport size, Git is used to provide version control and testing, and GitHub is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.</p>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <p class="center">
+            <a href="#">Link to project</a>
+          </p>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <img class="responsive-img center" src="img/project-featured1.png">
+          <p class="center-align">
+            <a class="project-title modal-trigger" href="#modal2">Control de Pagos</a>
+          </p>
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+            <h4>Control de Pagos</h4>
+            <p>A web application developed for the Colegio Iberoamericano Tampico, in this web app the administrator can add concepts, grades, students and invoices for payments for each students, export this in pdf.</p>
+            <p>Also they can see reports by day, grades and dates.</p>
+            <ul>
+              <li>
+                Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
+              </li>
+              <li>
+                Deployed the web app using Nginx Server (Digital Ocean).
+              </li>
+            </ul>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <p class="center-align">
+            <a href="#">Link to project</a>
+          </p>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <img class="responsive-img center" src="img/project-featured1.png">
+           <p class="center-align">
+            <a class="project-title modal-trigger" href="#modal3">Vmenu</a>
+          </p>
+          <div id="modal3" class="modal">
+            <div class="modal-content">
+            <h4>Vmenu</h4>
+            <p>
+              A web application developed for the guests of the Hotel Holiday Inn, in this web app the guests can order their room service, food or drinks.
+            </p>
+            <p>
+              Also the app contain a administration area in which the administrator can add categories, dishes, drinks and payments methods, and check all the guests orders.
+            </p>
+            <ul>
+              <li>
+                Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
+              </li>
+              <li>
+                Develop the client using Polymer 1.0.
+              </li>
+            </ul>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <p class="center">
+            <a href="#">Link to project</a>
+          </p>
+        </div>
+      </div>
+
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+      </script>
     </body>
   </html>
