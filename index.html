@@ -15,23 +15,37 @@
       <!--Google Fonts-->
       <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Khand:400,500' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Marvel:400,400italic' rel='stylesheet' type='text/css'>
 
       <title>Portfolio | Gregory Onasis</title>
     </head>
 
     <body>
+    <header>
       <div class="row">
         <div class="col s12 m6 l6">
-          <img class="avatar" src="img/avatar.svg" alt="Logo">
+          <img class="avatar responsive-img" src="img/avatar.svg" alt="logo" onclick="Materialize.toast('HELLO!', 2000)">
         </div>
         <div class="col s12 m6 l6">
-          <h1 class="name-title right-align">Gregory Onasis</h1>
-          <h3 class="title right-align">ITI Engineer</h3>
+          <h1 class="name-title right-align valign">Gregory Onasis</h1>
+          <h3 class="title right-align valign">Front-End Engineer</h3>
         </div>
       </div>
       <hr>
-    
-  
+      </header>  
+
+      <picture>
+      <div class="row">
+        <source media="(max-width: 600px)" srcset="img/picture1crop.png">
+        <img class="picture responsive-img" src="img/picture1.png" alt="picture_1">
+      </div>
+      </picture>
+
+      <div class="row">
+        <blockquote>
+        <h2 class="work-title">Featured Work</h2>
+        </blockquote>
+      </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

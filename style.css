@@ -1,13 +1,13 @@
 img	{
 	max-width: 100%;
-	vertical-align: top;
 }
  hr	{
  	border-top: 3px solid #BCBBBB;
  }
  .avatar {
-  	width: 200px;
-  	height: 200px;
+  	width: 170px;
+  	height: 170px;
+  	margin-top: 10px;
 }
 .name-title {
 	font-size: 70px;
@@ -16,6 +16,14 @@ img	{
 .title{
 	font-size: 35px;
 	font-family: 'Khand', sans-serif;
+}
+.picture{
+	width: 1149px;
+	height: 349px;
+}
+.work-title{
+	font-family: 'Marvel', sans-serif;
+	color: #757575;
 }
 
 body {
