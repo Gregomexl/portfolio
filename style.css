@@ -18,8 +18,9 @@ img	{
 	font-family: 'Khand', sans-serif;
 }
 .picture{
-	width: 1149px;
+	width: 100vw;
 	height: 349px;
+	padding-top: 10px;
 }
 .work-title{
 	font-family: 'Marvel', sans-serif;
@@ -32,11 +33,10 @@ img	{
 	text-align: center;
 	margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 body {
 	padding-bottom: 10px;  
-	padding-left: 80px; 
-	padding-right: 80px; 
 	margin: 0px;
 }
