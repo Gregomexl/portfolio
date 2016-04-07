@@ -1,148 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="style.css" media="screen" />
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--Favicon-->
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
-      
-      <!--Google Fonts-->
-      <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Khand:400,500' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Marvel:400,400italic' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-      <title>Portfolio | Gregory Onasis</title>
-    </head>
+    <!--Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Khand:400,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Marvel:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
-    <body>
+    <title>Portfolio | Gregory Onasis</title>
+</head>
+
+<body>
     <header>
-      <div class="row">
-        <div class="col s12 m6 l6">
-          <img class="avatar responsive-img" src="img/avatar.svg" alt="logo" onclick="Materialize.toast('HELLO!', 2000)">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <img class="avatar responsive-img" src="img/avatar.svg" alt="logo" onclick="Materialize.toast('HELLO!', 2000)">
+            </div>
+            <div class="col s12 m6 l6">
+                <h1 class="name-title right-align ">Gregory Onasis</h1>
+                <h3 class="title right-align ">Front-End Engineer</h3>
+            </div>
         </div>
-        <div class="col s12 m6 l6">
-          <h1 class="name-title right-align ">Gregory Onasis</h1>
-          <h3 class="title right-align ">Front-End Engineer</h3>
-        </div>
-      </div>
-      <hr>
-      </header>  
+        <hr>
+    </header>
 
-      <div class="row">
-       <picture>
-       <source media="(max-width: 600px)" srcset="img/crop.png">
-       <source media="(max-width: 800px)" srcset="img/crop2.png">
-        <img class="picture responsive-img" src="img/picture1.png" alt="picture_1">
-      </picture>
-      </div>
-   
+    <div class="row">
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/crop.png">
+                <source media="(max-width: 800px)" srcset="img/crop2.png">
+                    <img class="picture responsive-img" src="img/picture1.png" alt="picture_1">
+        </picture>
+    </div>
 
-      <div class="row">
+
+    <div class="row">
         <blockquote>
-        <h2 class="work-title">Featured Work</h2>
+            <h2 class="work-title">Featured Work</h2>
         </blockquote>
-      </div>
-      
-      <div class="row">
-        <div class="col s12 m4 l4">
-          <img class="responsive-img center" src="img/project-featured2.png">
-          <p class="center-align">
-          <a class="project-title modal-trigger" href="#modal1">Portfolio</a>
-          </p>
-          <div id="modal1" class="modal">
-            <div class="modal-content">
-            <h4>Portfolio</h4>
-            <p>This is my first project in the Front-end Nanodegree program. Bootstrap is utilized to layout the grid, srcset is used to change an image based on viewport size, Git is used to provide version control and testing, and GitHub is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.</p>
-            </div>
-            <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-          </div>
-          <p class="center">
-            <a href="#">Link to project</a>
-          </p>
-        </div>
+    </div>
 
+    <div class="row">
         <div class="col s12 m4 l4">
-          <img class="responsive-img center" src="img/project-featured1.png">
-          <p class="center-align">
-            <a class="project-title modal-trigger" href="#modal2">Control de Pagos</a>
-          </p>
-          <div id="modal2" class="modal">
-            <div class="modal-content">
-            <h4>Control de Pagos</h4>
-            <p>A web application developed for the Colegio Iberoamericano Tampico, in this web app the administrator can add concepts, grades, students and invoices for payments for each students, export this in pdf.</p>
-            <p>Also they can see reports by day, grades and dates.</p>
-            <ul>
-              <li>
-                Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
-              </li>
-              <li>
-                Deployed the web app using Nginx Server (Digital Ocean).
-              </li>
-            </ul>
-            </div>
-            <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-          </div>
-          <p class="center-align">
-            <a href="#">Link to project</a>
-          </p>
-        </div>
-
-        <div class="col s12 m4 l4">
-          <img class="responsive-img center" src="img/project-featured.png">
-           <p class="center-align">
-            <a class="project-title modal-trigger" href="#modal3">Vmenu</a>
-          </p>
-          <div id="modal3" class="modal">
-            <div class="modal-content">
-            <h4>Vmenu</h4>
-            <p>
-              A web application developed for the guests of the Hotel Holiday Inn, in this web app the guests can order their room service, food or drinks.
+            <img class="responsive-img center" src="img/project-featured2.png" alt="image_p1">
+            <p class="center-align">
+                <a class="project-title modal-trigger" href="#modal1">Portfolio</a>
             </p>
-            <p>
-              Also the app contain a administration area in which the administrator can add categories, dishes, drinks and payments methods, and check all the guests orders.
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Portfolio</h4>
+                    <p>This is my first project in the Front-end Nanodegree program. Bootstrap is utilized to layout the grid, srcset is used to change an image based on viewport size, Git is used to provide version control and testing, and GitHub is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
+            <p class="center">
+                <a href="#">Link to project</a>
             </p>
-            <ul>
-              <li>
-                Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
-              </li>
-              <li>
-                Develop the client using Polymer 1.0.
-              </li>
-            </ul>
-            </div>
-            <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-          </div>
-          <p class="center">
-            <a href="#">Link to project</a>
-          </p>
         </div>
-      </div>
 
-      <!--Import jQuery before materialize.js-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="js/materialize.min.js"></script>
-      <script>
-        $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
-      </script>
-    </body>
-  </html>
+        <div class="col s12 m4 l4">
+            <img class="responsive-img center" src="img/project-featured1.png" alt="image_p2">
+            <p class="center-align">
+                <a class="project-title modal-trigger" href="#modal2">Control de Pagos</a>
+            </p>
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h4>Control de Pagos</h4>
+                    <p>A web application developed for the Colegio Iberoamericano Tampico, in this web app the administrator can add concepts, grades, students and invoices for payments for each students, export this in pdf.</p>
+                    <p>Also they can see reports by day, grades and dates.</p>
+                    <ul>
+                        <li>
+                            Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
+                        </li>
+                        <li>
+                            Deployed the web app using Nginx Server (Digital Ocean).
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
+            <p class="center-align">
+                <a href="#">Link to project</a>
+            </p>
+        </div>
+
+        <div class="col s12 m4 l4">
+            <img class="responsive-img center" src="img/project-featured.png" alt="image_p3">
+            <p class="center-align">
+                <a class="project-title modal-trigger" href="#modal3">Vmenu</a>
+            </p>
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4>Vmenu</h4>
+                    <p>
+                        A web application developed for the guests of the Hotel Holiday Inn, in this web app the guests can order their room service, food or drinks.
+                    </p>
+                    <p>
+                        Also the app contain a administration area in which the administrator can add categories, dishes, drinks and payments methods, and check all the guests orders.
+                    </p>
+                    <ul>
+                        <li>
+                            Develop the Admistrador and the app using the Framework Laravel 5.1 and Blade for Laravel and Bootstrap.
+                        </li>
+                        <li>
+                            Develop the client using Polymer 1.0.
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
+            <p class="center">
+                <a href="#">Link to project</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" />
+            </a>
+        </p>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+            $('.modal-trigger').leanModal();
+        });
+    </script>
+</body>
+
+</html>

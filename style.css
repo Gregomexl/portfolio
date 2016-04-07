@@ -1,49 +1,47 @@
-img	{
-	max-width: 100%;
-	display: block; 
-	margin: 0 auto;
+img {
+    max-width: 100%;
+    display: block;
 }
- hr	{
- 	border-top: 3px solid #BCBBBB;
- }
- body {
-	padding-bottom: 10px;  
-	padding-left: 20px; 
-	padding-right: 20px; 
-	margin: 0px;
+hr {
+    border-top: 3px solid #BCBBBB;
 }
-
- .avatar {
-  	width: 160px;
-  	height: 160px;
-  	margin-top: 20px;
+body {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
 }
 .name-title {
-	font-size: 70px;
-	font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    font-family: 'Josefin Slab', serif;
 }
-.title{
-	font-size: 35px;
-	font-family: 'Khand', sans-serif;
+.title {
+    font-size: 35px;
+    font-family: 'Khand', sans-serif;
 }
-.picture{
-	width: 100vw;
-	height: 349px;
-	padding-top: 10px;
+.picture {
+    width: 100vw;
+    height: 349px;
+    padding-top: 10px;
 }
-.work-title{
-	font-family: 'Marvel', sans-serif;
-	color: #757575;
-	font-size: 32px;
+.work-title {
+    font-family: 'Marvel', sans-serif;
+    color: #757575;
+    font-size: 32px;
 }
-.project-title{
-	font-size: 35px;
-	color: #dd2c00 ;
-	text-align: center;
-	margin-top: 20px;
+.project-title {
+    font-size: 35px;
+    color: #dd2c00;
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-family: 'Orbitron', sans-serif;
 }
-.project-image{
-	height: 300px;
+.project-image {
+    height: 300px;
 }
