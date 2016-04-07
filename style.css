@@ -1,9 +1,18 @@
 img	{
 	max-width: 100%;
+	display: block; 
+	margin: 0 auto;
 }
  hr	{
  	border-top: 3px solid #BCBBBB;
  }
+ body {
+	padding-bottom: 10px;  
+	padding-left: 20px; 
+	padding-right: 20px; 
+	margin: 0px;
+}
+
  .avatar {
   	width: 160px;
   	height: 160px;
@@ -35,10 +44,6 @@ img	{
     margin-bottom: 10px;
     font-family: 'Orbitron', sans-serif;
 }
-
-body {
-	padding-bottom: 10px;  
-	padding-left: 20px; 
-	padding-right: 20px; 
-	margin: 0px;
+.project-image{
+	height: 300px;
 }
