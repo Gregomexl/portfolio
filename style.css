@@ -2,38 +2,44 @@ img {
     max-width: 100%;
     display: block;
 }
+
 hr {
-    border-top: 3px solid #BCBBBB;
+    border-top: 3px solid #bcbbbb;
 }
+
 body {
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 0 20px 10px;
     padding-right: 20px;
-    margin: 0px;
 }
+
 .avatar {
     width: 160px;
     height: 160px;
     margin-top: 20px;
 }
+
 .name-title {
     font-size: 70px;
     font-family: 'Josefin Slab', serif;
 }
+
 .title {
     font-size: 35px;
     font-family: 'Khand', sans-serif;
 }
+
 .picture {
     width: 100vw;
     height: 349px;
     padding-top: 10px;
 }
+
 .work-title {
     font-family: 'Marvel', sans-serif;
     color: #757575;
     font-size: 32px;
 }
+
 .project-title {
     font-size: 35px;
     color: #dd2c00;
@@ -42,6 +48,13 @@ body {
     margin-bottom: 10px;
     font-family: 'Orbitron', sans-serif;
 }
+
 .project-image {
     height: 300px;
+}
+
+.css-verification {
+    border:0;
+    width:88px;
+    height:31px
 }
